@@ -54,7 +54,7 @@
             }
         }
         var map = L.map('map', {
-            zoomControl:true, maxZoom:18, minZoom:4
+            zoomControl:true, maxZoom:18, minZoom:5
         }).fitBounds([[-30.59493434061833,93.53219575357315],[26.267176767435608,142.4784677282553]]);
         var hash = new L.Hash(map);
         map.attributionControl.setPrefix('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> &middot; <a href="https://qgis.org">QGIS</a>');
@@ -68,7 +68,7 @@
             pane: 'pane_OSMStandard_0',
             opacity: 1.0,
             attribution: '<a href="https://www.openstreetmap.org/copyright">© OpenStreetMap contributors, CC-BY-SA</a>',
-            minZoom: 4,
+            minZoom: 5,
             maxZoom: 18,
             minNativeZoom: 0,
             maxNativeZoom: 19
